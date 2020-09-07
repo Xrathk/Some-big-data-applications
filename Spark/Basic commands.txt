@@ -1,0 +1,30 @@
+////////////////////////// PROJECT 1- EROTIMA 3 /////////////////////////////////
+
+/////////// Executable within a Spark-Shell ///////////////
+// Just copy-paste within a spark shell to get all the results
+
+// Importing the dataset
+val df = spark.read.format("csv").option("header","true").load("/home/akis/Desktop/Big Data Projects/Project 1/fake_job_postings.csv")
+
+// a.) Printing number of lines
+println("Number of lines is: " + df.count())
+
+
+// b.) Number of fake job postings
+val fake = df.filter($"fraudulent" === 1) // creating a dataset with only fake job postings
+println("Number of fake job postings is: " + fake.count())
+
+// c.) Number of real job postings
+val real = df.filter($"fraudulent" === 0) // creating a dataset with only real job postings
+println("Number of real job postings is: " + real.count())
+
+// d.) Top requirements in fake job postings
+println("Top 10 most required education backgrounds in fake job postings:")
+val fakereq = fake.groupBy("required_education").count().orderBy(desc("count")).limit(10).show() 
+
+// e.) Top requirements in real job postings
+println("Top 10 most required education backgrounds in real job postings:")
+val realreq = real.groupBy("required_education").count().orderBy(desc("count")).limit(10).show(false) 
+println("End of question 1.3...")
+
+//// copy-paste above
