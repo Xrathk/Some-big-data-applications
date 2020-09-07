@@ -1,0 +1,267 @@
+Εξελιγμένος αλγόριθμος: α=0.2
+
+
+Page Ranking:
+
+Loading data...
+Loading complete!
+
+Starting iterations...
+Iteration 1 complete!
+Difference is: 192247.05419152314
+Iteration 2 complete!
+Difference is: 20985.42468706671
+Iteration 3 complete!
+Difference is: 2537.9644197595753
+Iteration 4 complete!
+Difference is: 328.8718563316151
+Iteration 5 complete!
+Difference is: 46.60703489443257
+Iteration 6 complete!
+Difference is: 7.106526715432697
+Iteration 7 complete!
+Difference is: 1.14752513296569
+Iteration 8 complete!
+Difference is: 0.194313169213853
+Convergence achieved!
+
+Page ranking algorithm complete! Here are the final results...
+
+Top 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 163075 has rank: 248.782385273876
+Page 537039 has rank: 222.46846350857183
+Page 597621 has rank: 219.27082563096712
+Page 605856 has rank: 193.54738491779645
+Page 885605 has rank: 180.27688673233894
+Page 551829 has rank: 177.03157291642478
+Page 819223 has rank: 176.72242677008555
+Page 751384 has rank: 172.161401849741
+Page 908351 has rank: 169.75100255934325
+Page 504140 has rank: 168.81642575580193
+Page 32163 has rank: 161.60382050038638
+Page 837478 has rank: 160.86906961020318
+Page 558791 has rank: 158.7350374724835
+Page 173976 has rank: 158.6204899393152
+Page 765334 has rank: 158.01617196950943
+Page 41909 has rank: 154.26748833809054
+Page 828963 has rank: 153.6005226250961
+Page 213432 has rank: 152.86564475718345
+Page 384666 has rank: 151.60651862510855
+
+Bottom 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 6 has rank: 0.8
+Page 12 has rank: 0.8
+Page 24 has rank: 0.8
+Page 26 has rank: 0.8
+Page 33 has rank: 0.8
+Page 38 has rank: 0.8
+Page 47 has rank: 0.8
+Page 60 has rank: 0.8
+Page 62 has rank: 0.8
+Page 64 has rank: 0.8
+Page 67 has rank: 0.8
+Page 69 has rank: 0.8
+Page 79 has rank: 0.8
+Page 81 has rank: 0.8
+Page 111 has rank: 0.8
+Page 115 has rank: 0.8
+Page 127 has rank: 0.8
+Page 137 has rank: 0.8
+Page 138 has rank: 0.8
+
+Total time elapsed: 56.56412935256958 seconds.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Εξελιγμένος αλγόριθμος: α=0.85
+
+
+Page Ranking:
+
+Loading data...
+Loading complete!
+
+Starting iterations...
+Iteration 1 complete!
+Difference is: 817536.5762056313
+Iteration 2 complete!
+Difference is: 379405.41789198085
+Iteration 3 complete!
+Difference is: 194673.76987652504
+Iteration 4 complete!
+Difference is: 108022.73614334177
+Iteration 5 complete!
+Difference is: 64789.97564193069
+Iteration 6 complete!
+Difference is: 42214.18690884085
+Iteration 7 complete!
+Difference is: 29040.801100939174
+Iteration 8 complete!
+Difference is: 20896.67159262487
+Iteration 9 complete!
+Difference is: 15536.65312257464
+Iteration 10 complete!
+Difference is: 11815.525888801978
+Iteration 11 complete!
+Difference is: 9147.873542488673
+Iteration 12 complete!
+Difference is: 7175.264472114314
+Iteration 13 complete!
+Difference is: 5693.676971088198
+Iteration 14 complete!
+Difference is: 4554.7480513391565
+Iteration 15 complete!
+Difference is: 3671.5172485849384
+Iteration 16 complete!
+Difference is: 2975.787688188413
+Iteration 17 complete!
+Difference is: 2424.092643047434
+Iteration 18 complete!
+Difference is: 1982.4689401593498
+Iteration 19 complete!
+Difference is: 1626.4648782792347
+Iteration 20 complete!
+Difference is: 1338.6906068258836
+Iteration 21 complete!
+Difference is: 1104.3210728620415
+Iteration 22 complete!
+Difference is: 912.9415160713272
+Iteration 23 complete!
+Difference is: 756.0458184802308
+Iteration 24 complete!
+Difference is: 627.3277226515831
+Iteration 25 complete!
+Difference is: 521.2179690679633
+Iteration 26 complete!
+Difference is: 433.7994799279868
+Iteration 27 complete!
+Difference is: 361.5163022613716
+Iteration 28 complete!
+Difference is: 301.6423970732661
+Iteration 29 complete!
+Difference is: 251.93855176370258
+Iteration 30 complete!
+Difference is: 210.71982128852449
+Iteration 31 complete!
+Difference is: 176.32277740366675
+Iteration 32 complete!
+Difference is: 147.7210108664247
+Iteration 33 complete!
+Difference is: 123.82087943302922
+Iteration 34 complete!
+Difference is: 103.88195002783092
+Iteration 35 complete!
+Difference is: 87.1794350780293
+Iteration 36 complete!
+Difference is: 73.23349049501181
+Iteration 37 complete!
+Difference is: 61.524215911894956
+Iteration 38 complete!
+Difference is: 51.73541414789772
+Iteration 39 complete!
+Difference is: 43.51513017158287
+Iteration 40 complete!
+Difference is: 36.62546976346143
+Iteration 41 complete!
+Difference is: 30.83173908028598
+Iteration 42 complete!
+Difference is: 25.974551225800635
+Iteration 43 complete!
+Difference is: 21.882705198689987
+Iteration 44 complete!
+Difference is: 18.44764943684612
+Iteration 45 complete!
+Difference is: 15.55358972125734
+Iteration 46 complete!
+Difference is: 13.11996235483872
+Iteration 47 complete!
+Difference is: 11.067294262569378
+Iteration 48 complete!
+Difference is: 9.341335863914434
+Iteration 49 complete!
+Difference is: 7.883893903836166
+Iteration 50 complete!
+Difference is: 6.657268057144937
+Iteration 51 complete!
+Difference is: 5.621653756749437
+Iteration 52 complete!
+Difference is: 4.7489924352641815
+Iteration 53 complete!
+Difference is: 4.011469924691632
+Iteration 54 complete!
+Difference is: 3.3901201131558847
+Iteration 55 complete!
+Difference is: 2.8646459493954475
+Iteration 56 complete!
+Difference is: 2.4215767608883767
+Iteration 57 complete!
+Difference is: 2.0469886885170196
+Iteration 58 complete!
+Difference is: 1.7309386688927937
+Iteration 59 complete!
+Difference is: 1.4635336830522006
+Iteration 60 complete!
+Difference is: 1.2379342587347018
+Iteration 61 complete!
+Difference is: 1.0469698784535024
+Iteration 62 complete!
+Difference is: 0.8857684037205593
+Convergence achieved!
+
+Page ranking algorithm complete! Here are the final results...
+
+Top 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 41909 has rank: 815.0007297194586
+Page 163075 has rank: 771.8495791505184
+Page 597621 has rank: 763.7599116262231
+Page 537039 has rank: 752.2522165134217
+Page 504140 has rank: 690.7580142752363
+Page 384666 has rank: 666.1848636814497
+Page 605856 has rank: 657.2881621917601
+Page 486980 has rank: 649.6501466721238
+Page 32163 has rank: 622.2591211633594
+Page 558791 has rank: 617.6399710911811
+Page 551829 has rank: 602.9545033809397
+Page 765334 has rank: 599.2461018679792
+Page 751384 has rank: 571.6142271390859
+Page 7314 has rank: 548.4325397231747
+Page 182121 has rank: 546.1392542268956
+Page 908351 has rank: 540.3784998205037
+Page 173976 has rank: 535.2294561472307
+Page 425770 has rank: 533.8573577204788
+Page 213432 has rank: 518.042983009128
+
+Bottom 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 6 has rank: 0.15000000000000002
+Page 12 has rank: 0.15000000000000002
+Page 18 has rank: 0.15000000000000002
+Page 24 has rank: 0.15000000000000002
+Page 38 has rank: 0.15000000000000002
+Page 47 has rank: 0.15000000000000002
+Page 60 has rank: 0.15000000000000002
+Page 62 has rank: 0.15000000000000002
+Page 64 has rank: 0.15000000000000002
+Page 67 has rank: 0.15000000000000002
+Page 68 has rank: 0.15000000000000002
+Page 69 has rank: 0.15000000000000002
+Page 79 has rank: 0.15000000000000002
+Page 81 has rank: 0.15000000000000002
+Page 111 has rank: 0.15000000000000002
+Page 116 has rank: 0.15000000000000002
+Page 127 has rank: 0.15000000000000002
+Page 137 has rank: 0.15000000000000002
+Page 138 has rank: 0.15000000000000002
+
+Total time elapsed: 283.8050305843353 seconds.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+

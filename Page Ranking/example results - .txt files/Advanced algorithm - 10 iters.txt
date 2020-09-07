@@ -1,0 +1,64 @@
+Page Ranking:
+
+Loading data...
+Loading complete!
+
+Starting iterations...
+Iteration 1 complete!
+Iteration 2 complete!
+Iteration 3 complete!
+Iteration 4 complete!
+Iteration 5 complete!
+Iteration 6 complete!
+Iteration 7 complete!
+Iteration 8 complete!
+Iteration 9 complete!
+Iteration 10 complete!
+
+Page ranking algorithm for 10 iterations complete! Here are the final results...
+
+Top 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 163075 has rank: 247.65473265412044
+Page 537039 has rank: 222.68688532635068
+Page 597621 has rank: 217.47384169304016
+Page 605856 has rank: 193.3012307446074
+Page 885605 has rank: 179.93052571670196
+Page 551829 has rank: 176.9750496512781
+Page 819223 has rank: 176.92454443426575
+Page 751384 has rank: 172.47165113605294
+Page 908351 has rank: 170.2664736526769
+Page 504140 has rank: 168.75600251145212
+Page 32163 has rank: 161.8134945488187
+Page 837478 has rank: 160.79331406573942
+Page 558791 has rank: 158.7665659104135
+Page 765334 has rank: 158.6316402304203
+Page 173976 has rank: 158.27084480901152
+Page 41909 has rank: 154.73283942863543
+Page 828963 has rank: 153.2172703753363
+Page 213432 has rank: 153.14448213903393
+Page 384666 has rank: 149.92253277288606
+
+Bottom 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 6 has rank: 0.8
+Page 24 has rank: 0.8
+Page 25 has rank: 0.8
+Page 26 has rank: 0.8
+Page 33 has rank: 0.8
+Page 38 has rank: 0.8
+Page 47 has rank: 0.8
+Page 60 has rank: 0.8
+Page 62 has rank: 0.8
+Page 64 has rank: 0.8
+Page 67 has rank: 0.8
+Page 68 has rank: 0.8
+Page 69 has rank: 0.8
+Page 79 has rank: 0.8
+Page 81 has rank: 0.8
+Page 111 has rank: 0.8
+Page 115 has rank: 0.8
+Page 116 has rank: 0.8
+Page 127 has rank: 0.8
+
+Total time elapsed: 67.53654670715332 seconds.

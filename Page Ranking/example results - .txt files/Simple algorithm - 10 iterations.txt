@@ -1,0 +1,64 @@
+Page Ranking:
+
+Loading data...
+Loading complete!
+
+Starting iterations...
+Iteration 1 complete!
+Iteration 2 complete!
+Iteration 3 complete!
+Iteration 4 complete!
+Iteration 5 complete!
+Iteration 6 complete!
+Iteration 7 complete!
+Iteration 8 complete!
+Iteration 9 complete!
+Iteration 10 complete!
+
+Page ranking algorithm for 10 iterations complete! Here are the final results...
+
+Top 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 41909 has rank: 1065.2190748806374
+Page 597621 has rank: 917.0812762637985
+Page 905628 has rank: 858.6715645917952
+Page 537039 has rank: 833.2233193748922
+Page 384666 has rank: 831.5882566457059
+Page 765334 has rank: 808.403363395187
+Page 163075 has rank: 801.872771903738
+Page 504140 has rank: 788.7344334939069
+Page 425770 has rank: 782.9226386404874
+Page 486980 has rank: 752.5303042095629
+Page 558791 has rank: 710.4260549061705
+Page 32163 has rank: 694.7614735085491
+Page 687325 has rank: 667.5876451441325
+Page 605856 has rank: 640.4152554084025
+Page 599130 has rank: 634.5875974313834
+Page 751384 has rank: 626.4692900899473
+Page 173976 has rank: 613.6052712106258
+Page 7314 has rank: 610.3677260707789
+Page 551829 has rank: 603.1950967832881
+
+Bottom 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 6 has rank: 0
+Page 9 has rank: 0.0
+Page 504263 has rank: 0.0
+Page 12 has rank: 0
+Page 15 has rank: 0.0
+Page 16586 has rank: 0.0
+Page 43847 has rank: 0.0
+Page 44788 has rank: 0.0
+Page 99387 has rank: 0.0
+Page 130698 has rank: 0.0
+Page 390257 has rank: 0.0
+Page 422877 has rank: 0.0
+Page 451817 has rank: 0.0
+Page 460382 has rank: 0.0
+Page 639906 has rank: 0.0
+Page 661693 has rank: 0.0
+Page 771890 has rank: 0.0
+Page 795462 has rank: 0.0
+Page 859227 has rank: 0.0
+
+Total time elapsed: 63.493744134902954 seconds.

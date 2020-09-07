@@ -1,0 +1,64 @@
+Page Ranking:
+
+Loading data...
+Loading complete!
+
+Starting iterations...
+Iteration 1 complete!
+Iteration 2 complete!
+Iteration 3 complete!
+Iteration 4 complete!
+Iteration 5 complete!
+Iteration 6 complete!
+Iteration 7 complete!
+Iteration 8 complete!
+Iteration 9 complete!
+Iteration 10 complete!
+
+Page ranking algorithm for 10 iterations complete! Here are the final results...
+
+Top 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 41909 has rank: 811.9063396457547
+Page 163075 has rank: 806.343650604729
+Page 597621 has rank: 793.6007750927234
+Page 537039 has rank: 792.2261050600143
+Page 558791 has rank: 672.2274901061529
+Page 605856 has rank: 658.1377127982357
+Page 384666 has rank: 656.66754713144
+Page 504140 has rank: 649.8064568566402
+Page 486980 has rank: 643.7651377489506
+Page 32163 has rank: 621.6566127179434
+Page 551829 has rank: 613.9253369696245
+Page 670705 has rank: 611.1634006937463
+Page 765334 has rank: 610.5113402006396
+Page 751384 has rank: 600.0739473907364
+Page 425770 has rank: 557.7758800262108
+Page 687325 has rank: 549.880539092155
+Page 213432 has rank: 533.075605866944
+Page 908351 has rank: 531.9143980213232
+Page 173976 has rank: 521.1279908155908
+
+Bottom 20 pages:
+-----------------------------------------------------------------------------------------------------
+Page 6 has rank: 0.15000000000000002
+Page 12 has rank: 0.15000000000000002
+Page 18 has rank: 0.15000000000000002
+Page 24 has rank: 0.15000000000000002
+Page 25 has rank: 0.15000000000000002
+Page 33 has rank: 0.15000000000000002
+Page 38 has rank: 0.15000000000000002
+Page 47 has rank: 0.15000000000000002
+Page 60 has rank: 0.15000000000000002
+Page 62 has rank: 0.15000000000000002
+Page 68 has rank: 0.15000000000000002
+Page 79 has rank: 0.15000000000000002
+Page 111 has rank: 0.15000000000000002
+Page 115 has rank: 0.15000000000000002
+Page 116 has rank: 0.15000000000000002
+Page 137 has rank: 0.15000000000000002
+Page 138 has rank: 0.15000000000000002
+Page 139 has rank: 0.15000000000000002
+Page 150 has rank: 0.15000000000000002
+
+Total time elapsed: 75.01771950721741 seconds.
