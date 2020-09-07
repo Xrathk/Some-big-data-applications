@@ -1,0 +1,84 @@
+K-Means Clustering:
+
+Make sure that you've created the files 'newTags.csv', 'newRatings.csv' and 'mergedMovieData.csv'. Run FileCreation.py once to create them.
+
+
+What kind of K-means clustering do you want?
+1: d1 = Jaccard similarity based on the genres of movies
+2: d2 = Jaccard similarity based on the tags of movies
+3: d3 = Cosine similarity based on the ratings of the movies
+4: d4 = 0.3*d1 + 0.25*d2 + 0.45*d3
+Enter the number (1, 2, 3 or 4) that corresponds to your choice: 4
+
+
+How many clusters do you want to use (enter a number from 2 to 10)? 3
+Starting K-Means clustering with 3 clusters...
+
+Initial clusters are:
+Clustroid 1: [{'Adventure', 'Children', 'Comedy', 'Animation', 'Fantasy'}, {'toys played', 'very good', 'action', 'good cartoon chindren', 'neighborhood', 'first cgi film', 'whimsica', 'family film', 'boy', 'classic', 'action figure', 'jealousy', 'rainy day watchlist', 'computer animation', 'time travel', 'Want', 'fanciful', 'cowboy', 'John Lasseter', 'USA', 'bright', 'DVD-Video', 'tom hanks', 'toy', 'unlikely friendships', 'Cartoon', 'new toy', 'toys', 'rescue', 'adventure', 'Animation', 'imdb top 250', 'friendship', 'kids', 'light hearted', 'action figures', 'CG animation', 'CGI', 'kids and family', 'lots of heart', 'the boys', 'buy', 'friends', 'story', 'animated', 'DARING RESCUES', "Tumey's To See Again", 'sci-fi', 'Tim Allen', 'Woody', 'humorous', 'Pixar', 'bullying', 'funny lines', 'dolls', 'resourcefulness', 'dinosaur', 'é˜®ä¸€é¸£', 'warm', 'clever', 'cute', 'touching story', 'Engaging', 'avi', 'boy next door', 'good time', 'Disney', 'toy comes to life', 'CLV', 'cartoon', "Tumey's VHS", 'children', 'kids movie', 'UNLIKELY FRIENDSHIPS', 'buddy movie', 'Disney animated feature', 'villian hurts toys', 'animation', 'BD-Video', 'Pixar animation', 'voice acting', 'witty', 'Owned', 'favorite', 'joss whedon', 'American Animation', 'exciting plot', 'tim allen', 'Watched', 'mission', 'great movie', 'National Film Registry', 'walkie talkie', 'family', 'funny', 'nostalgic', 'fantasy', 'animmation', 'light', 'rivalry', 'fun family movie', '3D', 'Best of Rotten Tomatoes: All Time', 'disney', 'unny', 'CGI classic', 'childish', 'soothing', 'Buzz Lightyear', 'rousing', 'pixar', 'innovative', 'HEROIC MISSION', 'want to see again', 'TOYS COME TO LIFE', 'martial arts', '2009 reissue in Stereoscopic 3-D', 'ya boy', 'Tom Hanks', 'comedy', 'rated-G', '55 movies every kid should see--Entertainment Weekly', 'itaege', 'TÃ©a Leoni does not star in this movie', 'cgi', 'fun'}, [3.8937077945872383, 57309]]
+Clustroid 2: [{'Children', 'Adventure', 'Fantasy'}, {'time', 'Lebbat', 'scary', 'new home', 'bad cgi', 'herds of CGI animals', 'family', 'Fantasy', 'fantasy', 'giant insect', 'not for kids', 'Chris Van Allsburg', 'Adaptation of Book', 'adapted from:book', 'CLV', 'disappearance', 'children', 'rainy day watchlist', 'childhood recaptured', 'fiction', 'Robin Williams', 'Kirsten Dunst', 'childish', 'game', 'monkey', 'time travel', 'For children', 'see also:Zathura', 'board game', 'Children', 'recluse', 'Filmed in BC', 'horrifying (but not Horror genre)', 'jungle', 'based on a book', 'kid flick', 'magic board game', 'itaege', 'adventure', 'kids', "based on children's book", 'Joe Johnston', 'Dynamic CGI Action', 'animals'}, [3.2515271586594023, 24228]]
+Clustroid 3: [{'Drama', 'Romance', 'Comedy'}, {'interracial relationship', 'characters', 'CLV', 'chick flick', 'divorce', 'single mother', 'based on novel or book', 'revenge'}, [2.85354736424891, 2523]]
+
+Info after chunk 1.
+
+Cluster 1: 840
+Cluster 2: 692
+Cluster 3: 7468
+
+
+Clustroid 1: [{'Children', 'Adventure', 'Comedy'}, {'animation', 'comedy', 'Disney', 'BD-R', 'itaege', 'BD-Video', 'classic', 'Betamax', 'funny', 'DVD-Video'}, [3.1390741717119672, 4879.986904761905]]
+Clustroid 2: [{'Action', 'Adventure', 'Thriller'}, {'70mm', 'action', 'BD-R', 'adapted from:book', 'BD-Video', 'CLV', 'Betamax', 'adventure', 'DVD-Video', 'based on a book'}, [3.136110239756649, 4411.550578034682]]      
+Clustroid 3: [{'Drama', 'Romance', 'Comedy'}, {'murder', 'BD-R', 'independent film', 'CLV', 'nudity (topless)', 'Betamax', 'woman director', 'DVD-Video', 'based on a book', 'Criterion'}, [3.2160053204471755, 1621.3390465988216]]
+
+
+Info after chunk 2.
+
+Cluster 1: 1354
+Cluster 2: 1989
+Cluster 3: 14657
+
+
+Clustroid 1: [{'Children', 'Adventure', 'Comedy'}, {'animation', 'comedy', 'movie to see', 'BD-R', 'BD-Video', 'funny', 'family', 'Stereoscopic 3-D', 'duringcreditsstinger', 'talking animals'}, [3.1277467042772793, 3577.0923190546528]]
+Clustroid 2: [{'Action', 'Adventure', 'Thriller'}, {'murder', 'sci-fi', 'action', 'BD-R', 'BD-Video', 'predictable', 'violence', 'boring', 'revenge', 'based on a book'}, [3.055497366114302, 2388.4841628959275]]
+Clustroid 3: [{'Drama', 'Romance', 'Comedy'}, {'murder', 'love', 'BD-R', 'independent film', 'nudity (topless)', 'might like', 'woman director', 'based on a book', 'romance', 'Criterion'}, [3.214697243031848, 933.9413931909668]]
+
+
+Info after chunk 3.
+
+Cluster 1: 1945
+Cluster 2: 3687
+Cluster 3: 21368
+
+
+Clustroid 1: [{'Children', 'Comedy', 'Animation'}, {'animation', 'comedy', 'sequel', 'magic', 'musical', 'short', 'friendship', 'funny', 'family', 'duringcreditsstinger'}, [3.1083445314569444, 2583.39794344473]]
+Clustroid 2: [{'Action', 'Adventure', 'Thriller'}, {'murder', 'sci-fi', 'action', 'BD-R', 'sequel', 'mine', 'suspense', 'violence', 'revenge', 'boring'}, [2.956837462414184, 1441.7263357743423]]
+Clustroid 3: [{'Drama', 'Romance', 'Comedy'}, {'murder', 'love', 'BD-R', 'independent film', 'musical', 'biography', 'woman director', 'drama', 'documentary', 'romance'}, [3.176526760161173, 655.9740265818045]]
+
+
+Info after chunk 4.
+
+Cluster 1: 2782
+Cluster 2: 5259
+Cluster 3: 27959
+
+
+Clustroid 1: [{'Children', 'Comedy', 'Animation'}, {'animation', 'comedy', 'magic', 'short', 'cartoon', 'friendship', 'funny', 'family', 'woman director', 'anime'}, [3.121004577162506, 1829.4187634795112]]
+Clustroid 2: [{'Horror', 'Action', 'Thriller'}, {'murder', 'action', 'sequel', 'suspense', 'thriller', 'violence', 'horror', 'woman director', 'revenge', 'martial arts'}, [2.9240064820069276, 1038.109906826393]]
+Clustroid 3: [{'Documentary', 'Drama', 'Comedy'}, {'murder', 'stand-up comedy', 'love', 'BD-R', 'independent film', 'biography', 'woman director', 'based on novel or book', 'drama', 'romance'}, [3.157404898597909, 506.9132658535713]]
+
+
+Info after chunk 5.
+
+Cluster 1: 3648
+Cluster 2: 6454
+Cluster 3: 31773
+
+
+Clustroid 1: [{'Children', 'Comedy', 'Animation'}, {'animation', 'comedy', 'silly symphony', 'pluto', 'short', 'cartoon', 'friendship', 'family', 'funny', 'anime'}, [3.1184160740382083, 1405.2686403508771]]
+Clustroid 2: [{'Horror', 'Action', 'Thriller'}, {'murder', 'sci-fi', 'action', 'revenge', 'sequel', 'gore', 'violence', 'mystery', 'horror', 'thriller'}, [2.896936324977364, 857.9668422683607]]
+Clustroid 3: [{'Documentary', 'Drama', 'Comedy'}, {'love', 'music', 'independent film', 'might like', 'lgbt', 'biography', 'woman director', 'drama', 'documentary', 'romance'}, [3.153298929836793, 448.58653573789064]]   
+
+Final clusters are:
+Clustroid 1: [{'Children', 'Comedy', 'Animation'}, {'animation', 'comedy', 'silly symphony', 'pluto', 'short', 'cartoon', 'friendship', 'family', 'funny', 'anime'}, [3.1184160740382083, 1405.2686403508771]]
+Clustroid 2: [{'Horror', 'Action', 'Thriller'}, {'murder', 'sci-fi', 'action', 'revenge', 'sequel', 'gore', 'violence', 'mystery', 'horror', 'thriller'}, [2.896936324977364, 857.9668422683607]]
+Clustroid 3: [{'Documentary', 'Drama', 'Comedy'}, {'love', 'music', 'independent film', 'might like', 'lgbt', 'biography', 'woman director', 'drama', 'documentary', 'romance'}, [3.153298929836793, 448.58653573789064]]   

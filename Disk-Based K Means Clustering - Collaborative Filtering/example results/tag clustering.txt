@@ -1,0 +1,150 @@
+K-Means Clustering:
+
+Make sure that you've created the files 'newTags.csv', 'newRatings.csv' and 'mergedMovieData.csv'. Run FileCreation.py once to create them.
+
+
+What kind of K-means clustering do you want?
+1: d1 = Jaccard similarity based on the genres of movies
+2: d2 = Jaccard similarity based on the tags of movies
+3: d3 = Cosine similarity based on the ratings of the movies
+4: d4 = 0.3*d1 + 0.25*d2 + 0.45*d3
+Enter the number (1, 2, 3 or 4) that corresponds to your choice: 2
+
+
+How many clusters do you want to use (enter a number from 2 to 10)? 7
+Starting K-Means clustering with 7 clusters...
+
+Initial clusters are:
+Clustroid 1: {'Best of Rotten Tomatoes: All Time', 'light', 'story', 'buddy movie', '55 movies every kid should see--Entertainment Weekly', 'family', 'toys', 'funny lines', 'Engaging', 'friends', 'childish', 'cgi', 'animated', 'new toy', '3D', 'animation', 'CGI', 'Disney animated feature', "Tumey's To See Again", 'DVD-Video', 'TÃ©a Leoni does not star in this movie', 'whimsica', 'fantasy', 'CGI classic', 'TOYS COME TO LIFE', 'kids and family', 'martial arts', 'é˜®ä¸€é¸£', 'unlikely friendships', 'toy', 'USA', 'neighborhood', 'walkie talkie', 'clever', 'tom hanks', 'humorous', 'innovative', 'voice acting', 'imdb top 250', 'CLV', 'children', 'action figures', 'itaege', 'rainy day watchlist', 'boy', 'joss whedon', 'rescue', 'Woody', 'pixar', 'UNLIKELY FRIENDSHIPS', 'kids movie', 'CG animation', 'Cartoon', 'tim allen', 'want to see again', 'favorite', 'American Animation', 'mission', 'animmation', 'friendship', 'BD-Video', 'time travel', 'soothing', 'warm', 'good cartoon chindren', 'avi', '2009 reissue in Stereoscopic 3-D', 'the boys', 'ya boy', 'National Film Registry', 'rated-G', 'family film', 'good time', 'villian hurts toys', 'Buzz Lightyear', 'first cgi film', 'boy next door', 'toys played', 'rivalry', 'exciting plot', 'computer animation', 'toy comes to life', 'great movie', 'Tim Allen', 'nostalgic', 'action', 'kids', 'dolls', 'bullying', 'fanciful', 'Pixar', 'Watched', 'funny', 'lots of heart', 'cartoon', 'rousing', 'disney', 'touching story', 'Disney', 'bright', 'jealousy', 'witty', 'unny', 'Owned', 'DARING RESCUES', 'John Lasseter', 'sci-fi', 'Pixar animation', 'comedy', 'cowboy', 'very good', 'classic', 'Tom Hanks', 'adventure', 'Animation', "Tumey's VHS", 'buy', 'resourcefulness', 'cute', 'HEROIC MISSION', 'fun family movie', 'action figure', 'fun', 'Want', 'dinosaur', 'light hearted'}
+Clustroid 2: {'Best Of the Brosnon Bonds', 'killer as protagonist', 'secret base', 'EMP', 'Puerto Rico', 'cossack', 'MTSKAF', 'btaege', 'I wanted the bad guy to win.  Sean Bean out-Bonds Bond.', 'stealth helicopter', 'flash freeze death', 'bungee jump stunt', 'Bob*ola', 'kgb', 'computer games', 'satellite', 'special car', 'CLV', 'tank chase scene', 'secret intelligence service', 'Bond', 'memorable lines', 'espionage', 'gadgets', 'james 
+bond', "Tumey's DVDs", "it's a good movie but the end of 007 is always the same", 'Famke Janssen', 'cuba', 'assassin', 'secret service', 'Latin America', 'sexuality', 'dark', '007', 'bond', 'st. petersburg russia', 'secret identity', 'boys with toys', 'one-liners', 'falsely accused', 'classic', 'pseudo rated', 'adventure', 'action', 'Caribbean', 'computer hacker', 'red army', 'James Bond', 'thriller', '007 movies are bad.', 'electromagnetic pulse', 'franchise', 'Pierce Brosnan', '007 (series)', 'violence', 'computer virus', 'spies', 'time bomb', 'Memorable Characters', 'good dialogue', 'Sean Bean dies', 'sequel', 'funny', 'murder', 'BD-Video'}
+Clustroid 3: {'mafia', 'need to own', 'excellent cast', 'drug abuse', 'Bibliothek', 'etaege', '1970s', 'great performances', 'nudity', 'corruption', '1980s', 'slow', 'Robert DeNiro', 'casino', 'Vegas', 'Suspense', 'Robert De Niro', 'gangsters', 'Las Vegas', 'las vegas', 'gangster', 'imdb top 250', 'soundtrack', 'CLV', 'cannibalism', 'Nudity (Topless - Brief)', 'muddled motivations', 'indulgent', 'long', 'de niro in pink', 'character development', 'watch', 'Documentary like', "Tumey's DVDs", 'NO_FA_GANES', 'Joe Pesci', 'Pesci', 'DeNiro', 'robert de niro', 'non-fiction', 'narrated', 'complex', 'Divx1', 'plot', 'nudity (rear)', 'gamble', 'Goodfellas II', 
+'poker', 'illegal prostitution', 'Martin Scorsese', 'hysterical wife', 'scorcese', 'Robert Deniro', 'mob', '20060407', 'cult film', 'joe pesci', 'Nudity (Rear)', 'overdose', 'Mafia', 'na dysku', 'organized crime', 'violence', 'gambling', 'Great Ensemble Cast', 'based on a book', 'cinematographer:Robert Richardson', 'Sharon Stone', "memasa's movies", 'masterpiece', 'long movie', 'violent', 'stylish', 'rewatch', 'BD-Video'}
+Clustroid 4: {'1600s', 'Irene Bedard', 'Alan Menken', 'land claim', 'Mel Gibson', 'story', 'song', 'powhatan', 'dialogue', 'Disney', 'virginia', 'culture clash', 'gold rush', 'strong female lead', 'hulu', 'musket', 'Mike Gabriel', 'colony', 'cross cultural relationship', 'Judy Kuhn', 'star crossed lovers', 'animal sidekick', 'Native Americans', 'John Kassir', 'indians', 'itaege', 'indian chief', 'NO_FA_GANES', 'historically inaccurate', 'stereotypes', 'Related:Pocahontas (1995)', 'based on myths or folklore', 'talking animals', 'indians vs. settlers', 'get', 'nostalgic', 'animation', 'animate tree', 'princess series', 'shamanism', 'Oscar (Best Music - 
+Original Song)', 'Not according to the truth', 'Russell Means', 'interracial romance', 'Disney animated feature', 'Oscar (Best Music - Original Score)', '90s kid', 'pug dog', 'native american', 'musical', 'forbidden love', 'Super 1.85 Blow-Up', 'sidekicks for the sidekicks', 'DVD-Video', 'David Ogden Stiers', 'Cartoon', '17th century', 'settler', 'Eric Goldberg', 'jamestown virginia', 'Skinny Pocahontas', 'Disney Renaissance', 'romance', 'princess', 'soundtrack', '70mm', 'Katottava', 'BD-Video'}
+Clustroid 5: {'Juliette Lewis', 'mexico', 'sheriff', 'Harvey Keitel', "so bad it's good", 'hostage', 'sex offender', 'bikers', 'black humor', 'plot twist', 'tattoo', 'great use of music', 'cult classic', 'splatter', 'intense', 'horror', 'own', 'bar brawl', 'strippers', 'showdown', 'George Clooney', 'CLV', 'very unrealistic', 'seen at the cinema', 'Danny Trejo', 'to see: b-grade horror', 'bats', 'cdon', 'bank robber', 'perverted', 'holy 
+water', 'siege', 'mixed genre', 'priest', 'Salma Hayek', 'BD-Video', 'bank robbery', 'convenience store', 'on the road', 'senseless', 'frontier', 'btaege', 'my shopping list', 'dancing', 'brothers', 'bar', 'bouncer', 'sibling relationship', 'motorhome', 'action', 'genre mix', 'campy', 'vampires', 'kids', 'extreme violence', 'Sexualized violence', 'funny', 'nudity', 'mexican american border', 'Cheech Marin', 'Quentin Tarantino', 'crucifix', 'vampire', 'foot fetish', 'Nudity (Topless - Brief)', 'twist ending', 'absurd', 'snake', 'whip', 'stripper', 'recreational vehicle', 'Robert Rodriguez', 'bloody', 'cult film', "Didn't finish", 'terrible ending', 'boa constrictor', 'hostage situation', 'violence', 'See Planet Terror', 'Better first half', 'gore', 'preacher', 'Tarantino', 'stylized', 'Snakes'}
+Clustroid 6: {'New Hollywood', 'guns', 'post-traumatic stress disorder', 'vigilatism', 'anti-hero', 'Classic', 'Harvey Keitel', 'AFI #47', 'BFI classic', 'cameo:Martin Scorsese', 'AFI 100', 'Betamax', 'AFI 100 (Movie Quotes)', 'pedophilia', 'AFI 100 (Thrills)', 'New York City', 'Jodie Foster', 'loner', 'killer-as-protagonist(?)', 'assassination', 'BORING!', "Tumey's To See Again", 'movie theatre', 'insanity', 'taxi', 'Prostitution', 'grim', 'forceful', 'anomie', 'ideology', 'psychopath as hero', 'violent', 'Cybill Shepherd', 'nihilism', 'Best Performance:  Robert De Niro as Travis Bickle', 'Bernard Herrmann', 'psychopath', 'neo-noir', 'insane', 'Robert De Niro', 'going postal', 'imdb top 250', 'CLV', 'atmospheric', 'alienation', 'Atmospheric', 'vietnam veteran', 'menacing', 'mind-blowing', 'obsession', 'Cult film', "Can't remember", 'presidential elections', 'UNREQUITED LOVE', 'Vietnam war veteran', 'Do zassania', 'movie to see', 'social commentary', 'BD-Video', 'slow', 'Golden Palm', 'boring', 'Bibliothek', 'paranoid', 'overrated', 'moral ending', 'ohsoso', 'National Film Registry', '5 stars', 'Oscar Nominee: Best Picture 1976', "Tumey's DVDs", 'robert de niro', 'new york city', 'prostitution', 'scorcese', 'New York', 'psychopaths', 'setting:NYC', 'Oscar Nominee: Best Picture', 'psychology', 'vigilante', "memasa's movies", 'masterpiece', 'vigilantism', 'drug dealer', 'rewatch', 'K', 'acting', 'loneliness', 'PROSTITUTES', 'homophobia', 'lurid', 'ASSASSINATION PLOTS', 'visceral', 'character', 'character study', 'OBSESSIVE QUESTS', 'DeNiro', 'disturbing', 'dark', 'Film Theory & Criticism', 'mohawk', 'plot', 'anti pedophilia', 'illegal prostitution', 'Martin Scorsese', 'classic', 'cult film', 'cinematographer:Michael Chapman', 'dvd', 'misanthrope', 'mental illness', 'taxi driver', 'Deconstructive', 'Peter Boyle', 'serial killer'}
+Clustroid 7: {'expiration date', 'wong kar wai', 'love story', 'cops', 'loneliness', 'great acting', 'cinematography', 'BREAKUPS AND DIVORCES', 'drug smuggle', 'Chungking Mansions', 'dreamlike', 'my shopping list', 'Faye Wong', 'flight attendant', 'on dvr', 'Movielens QuickPick', 'excellent', 'Wong Kar Wai', 'jogging', 'Takeshi Kaneshiro', 'plot light', 'girlfriend', 'foggy', 'smuggling', 'sunglasses', 'indians', 'foreign', 'urbane', 'Hong Kong', 'stewardess', 'narrated', 'snack bar', 'love', 'OPPOSITES ATTRACT', 'jukebox', 'lyrical', 'idiots', 'airport', 'Tony Leung Chiu Wai', 'obsession', 'MISTAKEN IDENTITIES', 'May 1', 'shaky cam', 'scenic', 'hong kong', 'script', 'ironic', 'HongKong', 'reflective', 'birthday', 'ex-girlfriend', 'Wong Kar-wai', 'good music', 'time', 'Criterion', 'amelie-esque', "'90s nostalgia", 'romance', 'nocturnal', 'fanciful', 'BRIEF ENCOUNTERS', 'melancholy', 'ticket', 'pineapple', 'library vhs', 'stylized'}
+
+Info after chunk 1.
+
+Cluster 1: 823
+Cluster 2: 1294
+Cluster 3: 940
+Cluster 4: 689
+Cluster 5: 593
+Cluster 6: 1438
+Cluster 7: 3223
+
+New clustroid 1 : {'CLV', 'DVD-Video', 'comedy', 'classic', 'BD-R', 'fantasy', 'itaege', 'family', 'funny', 'friendship'}
+New clustroid 2 : {'CLV', 'violence', 'BD-R', 'Betamax', 'action', "Tumey's DVDs", 'sequel', 'funny', 'murder', 'franchise'}
+New clustroid 3 : {'nudity (topless)', 'CLV', 'Nudity (Topless - Brief)', 'Bibliothek', 'adapted from:book', 'based on a book', 'BD-R', "Tumey's DVDs", 'cult film', 'gangster'}
+New clustroid 4 : {'DVD-Video', 'based on a book', 'BD-R', 'Betamax', 'itaege', 'Disney', 'music', 'soundtrack', '70mm', 'musical'}
+New clustroid 5 : {'nudity (topless)', 'CLV', 'vampire', 'campy', 'violence', 'horror', 'BD-R', 'Betamax', 'cult film', 'gore'}
+New clustroid 6 : {'CLV', 'National Film Registry', 'atmospheric', 'DVD-Video', 'imdb top 250', 'classic', 'BD-R', 'Betamax', "Tumey's DVDs", 'Oscar Nominee: Best Picture'}
+New clustroid 7 : {'love', 'nudity (topless)', 'atmospheric', 'less than 300 ratings', 'Criterion', 'BD-R', 'independent film', 'romance', 'woman director', 'stylized'}
+
+
+Info after chunk 2.
+
+Cluster 1: 1214
+Cluster 2: 1830
+Cluster 3: 1192
+Cluster 4: 1169
+Cluster 5: 950
+Cluster 6: 1741
+Cluster 7: 9904
+
+New clustroid 1 : {'quirky', 'comedy', 'predictable', 'fantasy', 'movie to see', 'duringcreditsstinger', 'drama', 'family', 'funny', 'friendship'}
+New clustroid 2 : {'violence', 'action', 'thriller', 'movie to see', 'duringcreditsstinger', 'revenge', 'sequel', 'funny', 'murder', 'franchise'}
+New clustroid 3 : {'nudity (topless)', 'Nudity (Topless - Brief)', 'adapted from:book', 'R', 'based on a book', 'BD-R', 'based on novel or book', 'gangster', 'murder', 'Nudity (Topless)'}
+New clustroid 4 : {'musicians', 'adapted from:book', 'based on a book', 'BD-R', 'music', 'duringcreditsstinger', 'based on novel or book', 'soundtrack', 'might like', 'musical'}
+New clustroid 5 : {'nudity (topless)', 'vampire', 'violence', 'horror', 'cult film', 'gore', 'revenge', 'murder', 'rape', 'serial killer'}
+New clustroid 6 : {'CLV', 'imdb top 250', 'DVD-Video', 'boring', 'R', 'BD-R', 'Betamax', "Tumey's DVDs", 'Oscar Nominee: Best Picture', 'drama'}
+New clustroid 7 : {'nudity (topless)', 'love', 'less than 300 ratings', 'DVD-RAM', 'Criterion', 'BD-R', 'independent film', 'romance', 'woman director', 'might like'}
+
+
+Info after chunk 3.
+
+Cluster 1: 1496
+Cluster 2: 2056
+Cluster 3: 1301
+Cluster 4: 1660
+Cluster 5: 1646
+Cluster 6: 1893
+Cluster 7: 16948
+
+New clustroid 1 : {'quirky', 'comedy', 'predictable', 'animation', 'fantasy', 'drama', 'family', 'funny', 'magic', 'friendship'}
+New clustroid 2 : {'revenge', 'blu-ray', 'action', 'sci-fi', 'thriller', 'sequel', 'funny', 'murder', 'mine', 'franchise'}
+New clustroid 3 : {'nudity (topless)', 'police', 'based on a book', 'BD-R', 'based on novel or book', 'film noir', 'drugs', 'gangster', 'murder', 'Nudity (Topless)'}
+New clustroid 4 : {'musicians', 'adapted from:book', 'based on a book', 'BD-R', 'music', 'based on novel or book', 'based on novel', 'biography', 'duringcreditsstinger', 'musical'}
+New clustroid 5 : {'nudity (topless)', 'vampire', 'sex', 'violence', 'horror', 'gore', 'revenge', 'murder', 'rape', 'serial killer'}
+New clustroid 6 : {'CLV', 'boring', 'DVD-Video', 'mine', 'blu-ray', 'slow', 'drama', 'Oscar Nominee: Best Picture', 'based on a true story', 'BD-Video'}
+New clustroid 7 : {'love', 'nudity (topless)', 'sex', 'BD-R', 'independent film', 'romance', 'short', 'biography', 'woman director', 'documentary'}
+
+
+Info after chunk 4.
+
+Cluster 1: 1816
+Cluster 2: 2247
+Cluster 3: 1527
+Cluster 4: 2017
+Cluster 5: 2303
+Cluster 6: 2079
+Cluster 7: 24011
+
+New clustroid 1 : {'comedy', 'predictable', 'animation', 'fantasy', 'adventure', 'drama', 'family', 'funny', 'magic', 'friendship'}
+New clustroid 2 : {'predictable', 'revenge', 'adventure', 'action', 'sci-fi', 'thriller', 'sequel', 'funny', 'monster', 'murder'}
+New clustroid 3 : {'police', 'crime', 'BD-R', 'robbery', 'suspense', 'based on novel or book', 'film noir', 'drugs', 'gangster', 'murder'}
+New clustroid 4 : {'musicians', 'comedy', 'based on a book', 'BD-R', 'music', 'based on novel or book', 'based on novel', 'biography', 'might like', 'musical'}
+New clustroid 5 : {'vampire', 'sex', 'blood', 'violence', 'horror', 'gore', 'revenge', 'murder', 'rape', 'serial killer'}
+New clustroid 6 : {'boring', 'DVD-Video', 'war', 'blu-ray', 'BD-Video', 'based on a true story', 'drama', 'based on novel or book', 'mine', 'slow'}
+New clustroid 7 : {'love', 'sport', 'sex', 'BD-R', 'independent film', 'romance', 'short', 'biography', 'woman director', 'documentary'}
+
+
+Info after chunk 5.
+
+Cluster 1: 2193
+Cluster 2: 2565
+Cluster 3: 1774
+Cluster 4: 2536
+Cluster 5: 2904
+Cluster 6: 2401
+Cluster 7: 30627
+
+New clustroid 1 : {'comedy', 'animation', 'fantasy', 'adventure', 'lgbt', 'drama', 'family', 'funny', 'magic', 'friendship'}
+New clustroid 2 : {'predictable', 'revenge', 'adventure', 'action', 'sci-fi', 'thriller', 'sequel', 'funny', 'monster', 'murder'}
+New clustroid 3 : {'police', 'crime', 'robbery', 'suspense', 'mystery', 'thriller', 'film noir', 'drugs', 'gangster', 'murder'}
+New clustroid 4 : {'comedy', 'stand-up comedy', 'based on a book', 'remake', 'music', 'based on novel or book', 'based on novel', 'biography', 'musical', 'might like'}
+New clustroid 5 : {'vampire', 'blood', 'violence', 'horror', 'slasher', 'gore', 'revenge', 'murder', 'rape', 'serial killer'}
+New clustroid 6 : {'boring', 'based on a book', 'crime', 'reviewed', 'action', 'slow', 'based on novel or book', 'drama', 'based on a true story', 'war'}
+New clustroid 7 : {'silent film', 'love', 'New World Pictures', 'stand-up comedy', 'independent film', 'romance', 'biography', 'short', 'woman director', 'documentary'}
+
+
+Info after chunk 6.
+
+Cluster 1: 2208
+Cluster 2: 2573
+Cluster 3: 1776
+Cluster 4: 2567
+Cluster 5: 2917
+Cluster 6: 2413
+Cluster 7: 30797
+
+New clustroid 1 : {'comedy', 'animation', 'holidays', 'folklore', 'lgbt', 'animated', 'family', 'christmas movie', 'magic', 'Christmas'}
+New clustroid 2 : {'cheap jokes', 'macabre', 'predictable', 'prospect preferred', 'netflix', 'adaptation', 'Wesley Snipes', 'sci-fi', 'sequel', 'funny'}
+New clustroid 3 : {'age', 'betrayal', 'Fear & Loathing ripoff', 'aging', 'crime', 'Martin Scorsese', 'long', 'italian', 'drugs', 'Al Pacino'}
+New clustroid 4 : {'comedy', 'Seen 2019', 'preachy', 'stand-up comedy', 'biopic', 'dolls', 'music', 'animated', 'might like', 'musical'}
+New clustroid 5 : {'Mexico', 'trauma', 'hero', 'loss', 'horror', 'R-rated', 'revenge', 'kidnapping', 'murder', 'rape'}
+New clustroid 6 : {'comedy', 'predictable', 'great cinematography', 'prospect preferred', 'theater', 'crime', 'great acting', 'drama', 'based on a true story', 'slow'}
+New clustroid 7 : {'Sundance award winner', 'tv movie', 'stand-up comedy', 'fairy tale', 'netflix', 'RiffTrax', 'Fangoria', 'black and white', 'documentary', 'cute boys'}
+
+Final clusters are:
+Clustroid 1: {'comedy', 'animation', 'holidays', 'folklore', 'lgbt', 'animated', 'family', 'christmas movie', 'magic', 'Christmas'}
+Clustroid 2: {'cheap jokes', 'macabre', 'predictable', 'prospect preferred', 'netflix', 'adaptation', 'Wesley Snipes', 'sci-fi', 'sequel', 'funny'}
+Clustroid 3: {'age', 'betrayal', 'Fear & Loathing ripoff', 'aging', 'crime', 'Martin Scorsese', 'long', 'italian', 'drugs', 'Al Pacino'}
+Clustroid 4: {'comedy', 'Seen 2019', 'preachy', 'stand-up comedy', 'biopic', 'dolls', 'music', 'animated', 'might like', 'musical'}
+Clustroid 5: {'Mexico', 'trauma', 'hero', 'loss', 'horror', 'R-rated', 'revenge', 'kidnapping', 'murder', 'rape'}
+Clustroid 6: {'comedy', 'predictable', 'great cinematography', 'prospect preferred', 'theater', 'crime', 'great acting', 'drama', 'based on a true story', 'slow'}
+Clustroid 7: {'Sundance award winner', 'tv movie', 'stand-up comedy', 'fairy tale', 'netflix', 'RiffTrax', 'Fangoria', 'black and white', 'documentary', 'cute boys'}

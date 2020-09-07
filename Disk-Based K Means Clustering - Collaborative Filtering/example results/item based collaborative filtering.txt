@@ -1,0 +1,62 @@
+Collaborative Filtering:
+
+Make sure that you've created the files 'newRatings.csv' and 'newRatings_CF.csv'. Run FileCreation.py once to create them.
+
+
+What kind of recommendation do you want?
+1: User Based
+2: Item Based
+3: Combination of user based and item based
+Enter the number (1, 2 or 3) that corresponds to your choice: 2
+
+
+Pick a user ID to recommend movies to: 946
+User identified. Starting recommendation process...
+
+Item-based filtering: Finding similar items to the ones the user has liked...
+
+These are the favorite movies of the user with ID: 946
+----------------------------------------------------------------------------
+Shawshank Redemption, The (1994) corresponding to the ID: 318
+Schindler's List (1993) corresponding to the ID: 527
+Good Will Hunting (1997) corresponding to the ID: 1704
+Fight Club (1999) corresponding to the ID: 2959
+Shutter Island (2010) corresponding to the ID: 74458
+
+
+The above movies have the following ratings:
+----------------------------------------------------------------------------
+Shawshank Redemption, The (1994) has a mean rating of: 4.413576004516335
+Schindler's List (1993) has a mean rating of: 4.247579083279535
+Good Will Hunting (1997) has a mean rating of: 4.074935168305647
+Fight Club (1999) has a mean rating of: 4.228310618821569
+Shutter Island (2010) has a mean rating of: 3.964762257757069
+
+Searching for movies with ratings similar to the above...
+
+Search complete. Now searching for movies with similar genres to the user's favorites...
+
+Recommendation process complete!
+User with the ID:946 should watch the movies:
+------------------------------------------------------------------------------
+Sense and Sensibility (1995) corresponding to the ID:17
+Persuasion (1995) corresponding to the ID:28
+Dead Man Walking (1995) corresponding to the ID:36
+Hate (Haine, La) (1995) corresponding to the ID:97
+Before Sunrise (1995) corresponding to the ID:215
+Once Were Warriors (1994) corresponding to the ID:290
+Léon: The Professional (a.k.a. The Professional) (Léon) (1994) corresponding to the ID:293
+Casablanca (1942) corresponding to the ID:912
+39 Steps, The (1935) corresponding to the ID:965
+Beautiful Thing (1996) corresponding to the ID:1046
+Paths of Glory (1957) corresponding to the ID:1178
+Goodfellas (1990) corresponding to the ID:1213
+Killer, The (Die xue shuang xiong) (1989) corresponding to the ID:1218
+Godfather: Part II, The (1974) corresponding to the ID:1221
+Full Metal Jacket (1987) corresponding to the ID:1222
+Once Upon a Time in America (1984) corresponding to the ID:1227
+Glory (1989) corresponding to the ID:1242
+Deer Hunter, The (1978) corresponding to the ID:1263
+Patton (1970) corresponding to the ID:1272
+Room with a View, A (1986) corresponding to the ID:1296
+------------------------------------------------------------------------------

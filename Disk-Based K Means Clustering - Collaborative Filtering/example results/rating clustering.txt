@@ -1,0 +1,181 @@
+K-Means Clustering:
+
+Make sure that you've created the files 'newTags.csv', 'newRatings.csv' and 'mergedMovieData.csv'. Run FileCreation.py once to create them.
+
+
+What kind of K-means clustering do you want?
+1: d1 = Jaccard similarity based on the genres of movies
+2: d2 = Jaccard similarity based on the tags of movies
+3: d3 = Cosine similarity based on the ratings of the movies
+4: d4 = 0.3*d1 + 0.25*d2 + 0.45*d3
+Enter the number (1, 2, 3 or 4) that corresponds to your choice: 3
+
+
+How many clusters do you want to use (enter a number from 2 to 10)? 8
+Starting K-Means clustering with 8 clusters...
+
+Initial clusters are:
+Clustroid 1: [3.8937077945872383, 57309.0]
+Clustroid 2: [3.2515271586594023, 24228.0]
+Clustroid 3: [2.85354736424891, 2523.0]
+Clustroid 4: [3.0230769230769234, 65.0]
+Clustroid 5: [1.9535250098463963, 2539.0]
+Clustroid 6: [4.01654306902453, 1753.0]
+Clustroid 7: [2.7281914893617016, 940.0]
+Clustroid 8: [4.0022725736685585, 59184.0]
+
+Info after chunk 1.
+
+Cluster 1: 42
+Cluster 2: 624
+Cluster 3: 625
+Cluster 4: 3112
+Cluster 5: 623
+Cluster 6: 500
+Cluster 7: 3466
+Cluster 8: 8
+
+New clustroid 1 : [3.7738480203120344, 45891.71428571428]
+New clustroid 2 : [3.489507775091106, 15010.123397435897]
+New clustroid 3 : [3.269830874841821, 2569.7232]
+New clustroid 4 : [3.029882173509434, 53.49260925449872]
+New clustroid 5 : [3.3359173180937245, 5087.8667736757625]
+New clustroid 6 : [3.1951271786098108, 1516.36]
+New clustroid 7 : [3.2135347838726442, 464.7273514137334]
+New clustroid 8 : [4.0946970474161155, 72686.375]
+
+
+Info after chunk 2.
+
+Cluster 1: 49
+Cluster 2: 726
+Cluster 3: 807
+Cluster 4: 9707
+Cluster 5: 763
+Cluster 6: 980
+Cluster 7: 4960
+Cluster 8: 8
+
+New clustroid 1 : [3.798421455040941, 43717.0]
+New clustroid 2 : [3.5121471633183643, 14722.128099173553]
+New clustroid 3 : [3.265159590474786, 2552.071871127633]
+New clustroid 4 : [3.102477284718007, 32.64438034408159]
+New clustroid 5 : [3.3610116911517065, 5116.19003931848]
+New clustroid 6 : [3.2172646465890926, 1348.7285714285715]
+New clustroid 7 : [3.2230439902861168, 408.83870967741933]
+New clustroid 8 : [4.0946970474161155, 72686.375]
+
+
+Info after chunk 3.
+
+Cluster 1: 49
+Cluster 2: 753
+Cluster 3: 865
+Cluster 4: 17703
+Cluster 5: 820
+Cluster 6: 1141
+Cluster 7: 5661
+Cluster 8: 8
+
+New clustroid 1 : [3.798421455040941, 43717.0]
+New clustroid 2 : [3.52266945092024, 14629.142098273573]
+New clustroid 3 : [3.270125176303319, 2549.900578034682]
+New clustroid 4 : [3.0521743074247065, 21.926114217929165]
+New clustroid 5 : [3.377631488209345, 5153.4]
+New clustroid 6 : [3.2366296098460503, 1310.6853637160386]
+New clustroid 7 : [3.228606316605078, 383.2374138844727]
+New clustroid 8 : [4.0946970474161155, 72686.375]
+
+
+Info after chunk 4.
+
+Cluster 1: 49
+Cluster 2: 755
+Cluster 3: 881
+Cluster 4: 26134
+Cluster 5: 829
+Cluster 6: 1198
+Cluster 7: 6146
+Cluster 8: 8
+
+New clustroid 1 : [3.798421455040941, 43717.0]
+New clustroid 2 : [3.5238886269522043, 14630.215894039735]
+New clustroid 3 : [3.273928792933354, 2555.5425652667423]
+New clustroid 4 : [3.0335006655583934, 16.862018826050356]
+New clustroid 5 : [3.380945008108302, 5156.088057901085]
+New clustroid 6 : [3.241369589061946, 1296.110183639399]
+New clustroid 7 : [3.2295509717399904, 363.46729580214776]
+New clustroid 8 : [4.0946970474161155, 72686.375]
+
+
+Info after chunk 5.
+
+Cluster 1: 49
+Cluster 2: 756
+Cluster 3: 896
+Cluster 4: 34479
+Cluster 5: 834
+Cluster 6: 1265
+Cluster 7: 6713
+Cluster 8: 8
+
+New clustroid 1 : [3.798421455040941, 43717.0]
+New clustroid 2 : [3.5245547936589894, 14624.20634920635]
+New clustroid 3 : [3.281266488468865, 2560.0290178571427]
+New clustroid 4 : [3.0367241983945568, 14.060384581919429]
+New clustroid 5 : [3.383725631763374, 5157.272182254196]
+New clustroid 6 : [3.2523895764283597, 1284.5375494071145]
+New clustroid 7 : [3.2260621006256884, 343.41933561745867]
+New clustroid 8 : [4.0946970474161155, 72686.375]
+
+
+Info after chunk 6.
+
+Cluster 1: 49
+Cluster 2: 756
+Cluster 3: 908
+Cluster 4: 42932
+Cluster 5: 836
+Cluster 6: 1312
+Cluster 7: 7199
+Cluster 8: 8
+
+New clustroid 1 : [3.798421455040941, 43717.0]
+New clustroid 2 : [3.5245547936589894, 14624.20634920635]
+New clustroid 3 : [3.2873653274097516, 2561.0]
+New clustroid 4 : [3.040656631890834, 12.045211031398491]
+New clustroid 5 : [3.3848371232349144, 5156.13995215311]
+New clustroid 6 : [3.2614561824595363, 1273.9649390243903]
+New clustroid 7 : [3.2224881850744564, 327.98221975274345]
+New clustroid 8 : [4.0946970474161155, 72686.375]
+
+
+Info after chunk 7.
+
+Cluster 1: 49
+Cluster 2: 756
+Cluster 3: 908
+Cluster 4: 47798
+Cluster 5: 836
+Cluster 6: 1320
+Cluster 7: 7372
+Cluster 8: 8
+
+New clustroid 1 : [3.798421455040941, 43717.0]
+New clustroid 2 : [3.5245547936589894, 14624.20634920635]
+New clustroid 3 : [3.2873653274097516, 2561.0]
+New clustroid 4 : [3.0258250630792958, 11.088162684631156]
+New clustroid 5 : [3.3848371232349144, 5156.13995215311]
+New clustroid 6 : [3.26383205339287, 1271.0719696969697]
+New clustroid 7 : [3.2176717350601662, 322.41494845360825]
+New clustroid 8 : [4.0946970474161155, 72686.375]
+
+Final clusters are:
+Clustroid 1: [3.798421455040941, 43717.0]
+Clustroid 2: [3.5245547936589894, 14624.20634920635]
+Clustroid 3: [3.2873653274097516, 2561.0]
+Clustroid 4: [3.0258250630792958, 11.088162684631156]
+Clustroid 5: [3.3848371232349144, 5156.13995215311]
+Clustroid 6: [3.26383205339287, 1271.0719696969697]
+Clustroid 7: [3.2176717350601662, 322.41494845360825]
+Clustroid 8: [4.0946970474161155, 72686.375]
